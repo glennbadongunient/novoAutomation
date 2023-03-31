@@ -1,0 +1,554 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/NZrMWHVy58-S9gVvad9HVGxk/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-xr6GVuxZPbBOv8nAFDzJ4h/dqcWRtUDnjTbk20rVRPA7lHvW7lP90UhPX7CZRpSZ"></script><script src="https://www.google.com/recaptcha/api.js?render=6LcLEckgAAAAAOq7O9zaAkpd-HeMBD9fi4HMo1YD&amp;badge=bottomleft"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/ico">
+
+    <!--Box Icons-->
+    <link rel="stylesheet" href="/assets/fonts/boxicons/css/boxicons.min.css">
+
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="/assets/fonts/bootstrap-icons/bootstrap-icons.css">
+    <!--Iconsmind Icons-->
+    <link rel="stylesheet" href="/assets/fonts/iconsmind/iconsmind.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;family=Source+Serif+Pro:ital@0;1&amp;display=swap" rel="stylesheet">
+
+    <!--Master slider-->
+    <link rel="stylesheet" href="/assets/masterslider/style/masterslider.css">
+    <link rel="stylesheet" href="/assets/masterslider/skins/black-1/style.css">
+
+    <!--Swiper slider-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+
+    <!-- Main CSS -->
+    <link href="/assets/css/theme.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-236642000-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-236642000-1');
+    </script>
+    
+    
+</head>
+
+<body class="loaded modal-open" data-aos-easing="ease" data-aos-duration="750" data-aos-delay="50" style="overflow: hidden; padding-right: 0px;">
+    
+    <!--Preloader Spinner-->
+    <div class="spinner-loader bg-tint-primary">
+        <div class="spinner-border text-primary" role="status">
+        </div>
+        <span class="small d-block ms-2">Loading...</span>
+    </div>
+    <!--Header Start-->
+
+    <header class="header-transparent sticky-fixed">
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-link-white" style="padding-right: 0px;">
+            <!--Navbar-fixed-background-->
+            <div class="navbar-fixed-bg position-absolute"></div>
+            <div class="container position-relative z-index-1">
+                <a class="navbar-brand" href="/">
+                    <img src="/assets/img/logo/Unient-Logo.svg" alt="logo development" class="img-fluid navbar-brand-sticky">
+                    <img src="/assets/img/logo/Unient-Logo-White.svg" alt="logo development - online branding solutions" class="img-fluid navbar-brand-transparent">
+                </a>
+                <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
+                    <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mainNavbarTheme">
+                    <!--Navbar items-->
+                    <ul class="navbar-nav">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/teams/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            Teams
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/infotech/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            Infotech
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/creatives/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            Creatives
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/bpo/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            BPO
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/about-us/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link nav-link--active" href="/blog/" role="button" aria-haspopup="true" aria-expanded="false">
+                                            Blog
+                                        </a>
+                                    </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+
+
+    <meta name="description" content="COVID-19 affected numerous industries. Read this article to learn about the ways the pandemic impacted the offshore outsourcing industry.">
+    <meta name="keywords" content="Offshore Outsourcing, Outsourcing Industry, Offshore outsourcing industry, remote work, remote working, digital transformation, outsourcing business, outsourcing talent">
+    <meta property="og:image" content="Umbraco.Cms.Core.Models.MediaWithCrops`1[Umbraco.Cms.Web.Common.PublishedModels.Image]">
+    <meta property="og:image:alt" content="COVID and Offshore Outsourcing: A Lookback and A Look Forward">
+
+
+<section id="article-header" class="position-relative bg-secondary text-white">
+    <div class="container pt-14 position-relative">
+        
+        <!--/.article-->
+    </div>
+
+
+    <!--Divider-->
+    <!--<svg class="position-absolute start-0 bottom-0 text-white" preserveAspectRatio="none" width="100%"
+        height="120" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M800 240H0L800 0V240Z" fill="currentColor" />
+    </svg>-->
+</section> 
+<section class="position-relative bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto card border-0"> 
+                <div class="position-relative pb-3 pb-lg-0">
+                    <div class="d-flex align-items-center w-100">
+                        <!-- Category-->
+                        <a href="#!" style="margin-top: 15px" class="badge bg-primary rounded-pill me-3">Leadership and Management</a>
+                        <small class="text-muted" style="margin-top: 16px; margin-left: -10px">21 March 2023</small> 
+                    </div>
+                    <div>
+                        <h1 class="my-3">Covid and OffShore Outsourcing: A Lookback and A Look Forward</h1>
+                        <h3 style="line-height: 0"></h3>
+                        <div style="margin-top: 20px" class="d-flex mb-0 small align-items-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/166/166258.png" alt="Unient" class="width-3x height-3x rounded-circle me-2">
+                            <span class="text-muted d-inline-block">By Unient Team</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="row">        
+            <div class="col-xl-9 mx-auto mb-3 mt-3">
+                <article class="article mb-9">
+                     <p style="margin-top: -5px"> 
+                     </p><p><img src="/media/4vshsm1v/feb-6-blog-1.png?rmode=max&amp;width=500" alt="Covid and OffShore Outsourcing: A Lookback and A Look Forward" width="100%" height="400"></p>
+<div style="text-align: justify;">
+<p><strong>THREE YEARS AGO,</strong> the first case of the novel coronavirus in Wuhan City was officially reported and to say that the world was forever changed would be an understatement. The full extent of such global scale devastation — not just with the lives and loves lost, but also the isolation it wrought — can never be adequately quantified.&nbsp;</p>
+<p>Throughout history, pandemics have been instrumental in changing the course of human lives and radically changing societies, and not always for the worst. Amidst the devastation, pandemics can also trigger social and political awakenings, accelerate development in different fields, and give the environment much-needed time to recuperate.&nbsp;&nbsp;</p>
+<p>From the Black Death to the Spanish Flu and to the most recent COVID-19, pandemics can end empires, spark trends, change laws, and shape our current and future existence — at least until the next pandemic comes along.&nbsp;</p>
+<p aria-level="2">During the height of the lockdowns at the beginning of 2020, the biggest issues apart from saving lives were protecting jobs and supply chains. Although not all experts agree that we are living in a post-COVID era, what is indisputable is that life found a way, as it always does. As fast as the pandemic upended things, industries responded and adapted.&nbsp;</p>
+<p>Some of the knock-off effects of the pandemic on the global economy and on specific industries are permanent. Naturally, healthcare has been impacted the most, but one other industry that warrants a second look is the offshore outsourcing industry.&nbsp;&nbsp;</p>
+<p>India’s COVID-19 crisis which came to a head in the second quarter of 2021, is considered by many to be the worst in the world. India also happens to be one of the biggest offshore outsourcing destinations. In 2020, India held&nbsp;<a href="https://www.insightssuccess.in/india-being-a-global-outsourcing-hub/">65 per cent of the global market share in offshore BPO</a>. The ensuing shutdown had far-reaching effects that fundamentally changed the entire offshore outsourcing industry.&nbsp;&nbsp;</p>
+<p>Let’s take a look at some of the ways the COVID-19 pandemic impacted the offshore outsourcing industry.&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<div class="row" style="text-align: center;">
+<div class="col-xl-7">
+<h3 style="text-align: left;">RESILIENCY AND OFFSHORE OUTSOURCING COMPANIES</h3>
+<div style="text-align: justify;">
+<p>Business continuity was the buzzword during the height of the pandemic. Businesses needed to survive. The crisis showed us how woefully unprepared the global economy was for this scale of disruption and how inadequate some national healthcare systems were.&nbsp;&nbsp;</p>
+<p>In a popular&nbsp;<a href="https://www.youtube.com/watch?v=6Af6b_wyiwI">TED Talk</a> from 2015, Bill Gates cautioned the world about the looming threat of a pandemic and the need for improved medical facilities, testing capabilities, and research and development on highly infectious viruses. Sounds oddly prescient, doesn’t it? But according to many, the writing was on the wall. Given the frequency of pandemics throughout history and the improvement of global mobility, the COVID pandemic was a clear and emerging threat that no one paid attention to.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+<div class="col-xl-3 mx-auto card border-0">
+<figure><img style="display: block; margin-left: -80px; padding-right: 122px;" src="/media/o2angykf/feb-6-blog-2.png?rmode=max&amp;width=502&amp;height=390" alt="Resiliency and Offshore Outsourcing Companies" width="502" height="390"></figure>
+<p>&nbsp;</p>
+</div>
+</div>
+<div style="text-align: justify;">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/media/nc2j5jqu/feb-6-blog-25.png?rmode=max&amp;width=534&amp;height=140" alt="Covid and Offshore Outsourcing Quote - Bill Gates cautioned the world about the looming threat of a pandemic and the need for improved medical facilities, testing capabilities, and research and development on highly infectious viruses." width="534" height="140"></p>
+<p>&nbsp;</p>
+<p>Various experts opined on whether COVID-19 was a Black Swan, a Grey Swan, or a White Swan event. A Black Swan event is a disruptor that is rare, a fluke, and beyond normal expectations. A Grey Swan event is a disruptor that is possible but unlikely. Finally, a White Swan event is a disruptor that can be seen coming.&nbsp;&nbsp;</p>
+<p>Regardless of which color swan you subscribe to, one thing is for sure, industries were taught a lesson they won’t likely soon forget. Business continuity planning is now part of everyone’s agenda. Offshore outsourcing companies are continuously reassessing their service delivery models and beefing up mission-critical systems. They will be better prepared to handle disruptions in operations and will have organisation-wide strategies in place to ensure business continuity. This may include, for instance, investing in Robotic Process Automation (RPA) and AI technologies or capacitating employees for remote work.&nbsp;</p>
+<p>From a client’s perspective, offshore outsourcing firms with multiple fulfilment centres will have the advantage as those who were badly burned by the lockdowns in certain offshore locations will most likely resort to geo-diversification of their outsourcing strategy to mitigate future risks.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h3 style="text-align: center;">THE OUTSOURCED WORKFORCE AND GLOBAL TALENT POOLS</h3>
+<p>&nbsp;</p>
+</div>
+<div>
+<p style="text-align: center;"><img src="/media/jwtpsegi/feb-6-blog-b2-1.png?rmode=max&amp;width=643&amp;height=331" alt="Worldwide Revenue of IT Oursourcing as of March 2022" width="724" height="382"></p>
+</div>
+<div style="text-align: justify;">
+<p>&nbsp;</p>
+<p><strong>THE GREAT RESIGNATION</strong> is the name given to the ongoing trend of workers quitting their jobs for reasons like shifting priorities (health and wellness, work-life balance), the search for higher pay, or the search for a flexible or hybrid work set-up. While mostly known as an American experience, every country in the world has their own version of this. This trend only exacerbated the pre-pandemic global talent shortage.&nbsp;</p>
+<p>To bridge the talent gap and fill roles, organisations are increasingly turning to offshore outsourcing. Since hiring onshore and in-house employees is proving to be too costly or taking too long, access to a global talent pool by way of offshore outsourcing has become a much-needed lifeline. The global lockdowns also eroded any existing scepticism about remote-first or hybrid working environments as they gave both employers and employees a chance to try them out and experience their many benefits first-hand. &nbsp;</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/media/f1qgkadk/feb-6-blog-4.png?rmode=max&amp;width=500" alt="The Outsourced Workforce and Global Talent Pools" width="692" height="439"></p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h3>REMOTE AND HYBRID WORK</h3>
+<p>&nbsp;</p>
+<div style="text-align: justify;">
+<p><strong>WHAT STARTED OUT AS A PUBLIC HEALTH NECESSITY</strong> is now the norm. The future (and the present) truly is hybrid. Even as offices resume their face-to-face operations, it is likely that remote working will always be an option. The widespread adoption of remote working brought about by COVID has also all but taken care of one of the greatest barriers to outsourcing: organisations of all sizes learned to work with distributed workforces and are now structured to be remote-friendly or even remote-first. This is also helped by the improvement and proliferation of communication and workflow management and collaboration tools. &nbsp;</p>
+<div class="row">
+<div class="col-xl-6">
+<p>As salaries for onshore hires increase, talent remains scarce and as the Great Resignation persists, offshore outsourcing is the best option. Since numerous studies also support the idea that productivity is not negatively impacted by remote working, what is stopping its widespread adoption?&nbsp;&nbsp;</p>
+<p><strong>THE ANSWER:</strong> nothing at all. It’s already happening. If a job can be done remotely, then it’s already being outsourced offshore either as an extension of the organisation or with a third-party service provider.&nbsp;</p>
+</div>
+<div class="col-xl-6">
+<h4 style="padding: 7%; text-align: left;">If a job can be done remotely, then it’s already being outsourced offshore either as an extension of the organisation or with a third-party service provider.</h4>
+<p>&nbsp;</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h3>DIGITAL TRANSFORMATION ACCELERATION</h3>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img src="/media/jlkpth3c/feb-6-blog-5.png?rmode=max&amp;width=500" alt="Digital Transformation Acceleration" width="700" height="450">&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>IT IS WIDELY ACCEPTED</strong> that COVID accelerated digital transformation across all industries, especially in fintech and communications. It also increased cross-border data flow. The heavy reliance on and the urgent need for digital tools for communication, collaboration, data security and business continuity has organisations prioritising technology and innovations. This means partnering with third-party providers for faster, more competent, more efficient service and more affordable set-up. Offshore outsourcing is also a huge boon to smaller organisations that cannot afford to execute an in-house digital transformation programme.</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
+<h3>REVENUE GROWTH</h3>
+<p>&nbsp;</p>
+<p><strong>COVID-19’S WORST-HIT</strong> industries include Airlines, Restaurants, Travel and Leisure and Automobiles. It may take years to recoup industry-wide and many businesses have shuttered for good. In contrast, industries that benefited the most include healthcare and pharmaceuticals, software and technology and outsourcing. The outsourcing industry as a whole is predicted to grow even more up until 2025.&nbsp;</p>
+<p>&nbsp;</p>
+<div class="row">
+<div class="col-xl-6">
+<p><img src="/media/10nhyxmf/feb-6-blog-6.png?rmode=max&amp;width=407&amp;height=320" alt="Offshore outsourcing revenue growth" width="407" height="320"></p>
+<p>&nbsp;</p>
+</div>
+<div class="col-xl-6">
+<p>This is fuelled by an ongoing talent shortage, the great demand for software-as-service and cloud-based solutions and an increase in comfort level in working with remote teams. Last, but probably still the most significant factor, is the cost savings. With organisations doing all they can to economise, a scalable offshore workforce is the logical choice.&nbsp;&nbsp;</p>
+<p>Organisations and businesses will be dealing with the disruptions wrought by the pandemic for decades to come. On the flip side, if they rise to the occasion, they will also be reaping the rewards for decades to come. It’s up to each organisation to root out vulnerabilities and build resilience. Challenges in the offshore outsourcing industry will persist (COVID-related or otherwise)—so will innovations and creative solutions.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Are you looking for a reliable and experienced offshore outsourcing partner? Whether you’re new to the game or exploring other providers, we’d love to talk to you. <a href="https://www.unient.biz/teams/#contact-us-form" data-anchor="#contact-us-form">Book a commitment-free consultation today</a>.</p>
+</div>
+</div>
+<p><!--/.article--></p>    
+                     <p></p>
+                </article>
+                <!--/.article-->
+            </div>
+        </div>
+    </div>
+</div></section>
+
+
+    <!--Footer start-->
+    <footer id="footer" class="bg-white text-dark position-relative">
+        <div class="container pt-9 pt-lg-11">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 mb-5 h-100 me-auto">
+                    <!--Title-->
+                    <a class="navbar-brand" href="/">
+                        <img src="/assets/img/logo/Unient-Logo.svg" alt="" class="img-fluid navbar-brand-sticky">
+                    </a>
+                    <div class="pt-3">
+                        <p>Your versatile partner for better offshoring </p>
+                    </div>
+
+                    <div class="pb-5">
+                        <div class="container">
+                            <div class="row justify-content-md-between align-items-center">
+                                <div class="d-flex">
+                                    <!-- Social button -->
+                                    <a target="_blank" href="https://www.facebook.com/unient.biz/" class="d-inline-block mb-1 me-2 si rounded-pill si-hover-facebook">
+                                        <i class="bx bxl-facebook fs-5"></i>
+                                        <i class="bx bxl-facebook fs-5"></i>
+                                    </a>
+                                    <!-- Social button -->
+                                    <a target="_blank" href="https://www.linkedin.com/company/unient-biz/" class="d-inline-block mb-1 me-2 si rounded-pill si-hover-linkedin">
+                                        <i class="bx bxl-linkedin fs-5"></i>
+                                        <i class="bx bxl-linkedin fs-5"></i>
+                                    </a>
+                                    <!-- Social button -->
+                                    <!-- <a href="#!" class="d-inline-block mb-1 me-2 si rounded-pill si-hover-twitter">
+                                        <i class="bx bxl-twitter fs-5"></i>
+                                        <i class="bx bxl-twitter fs-5"></i>
+                                    </a>
+                                    -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-4 mb-5 mb-md-0 ms-auto h-100">
+
+                    <!--Nav-->
+                    <ul class="nav flex-column mb-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/teams/">
+                                        Teams
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/infotech/">
+                                        Infotech
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/creatives/">
+                                        Creatives
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/bpo/">
+                                        BPO
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about-us/">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link--active" href="/blog/">
+                                        Blog
+                                    </a>
+                                </li>
+                    </ul>
+                </div>
+                <!--/.Col-->
+                <div class="col-sm-4 col-lg-3 mb-5 h-100">
+                    <!--Title-->
+                    <h5 class=" mb-3 mb-lg-4">
+                        Phone: +61 1800 864 368 <br> Email:
+                        <a style="color:#3655ff !important" class="cursorPointer" rel="noopener" href="mailto:info@unient.biz" target="_blank">info@unient.biz</a>
+                    </h5>
+                    
+
+                    <p><strong>Adelaide, Australia</strong><br><strong>Address:</strong> 2/1C Wilson Street,<br>Royal Park, SA, 5014, Australia<br><a rel="noopener" href="https://goo.gl/maps/gdPX5YyNFURV2Jfe6" target="_blank">View Map</a></p>
+
+                    <p><strong>Cebu, Philippines</strong><br><strong>Address:</strong><span> Level 2, 2778 Rufo Colina Street,</span><br>Mabolo, Cebu City, Cebu, 6000, Philippines<br><a rel="noopener" href="https://goo.gl/maps/e64kudiTkDgJnhsd6" target="_blank">View Map</a></p>
+
+                    <p><strong>Bengaluru, India</strong><br><strong>Address:</strong> Tejas Arcade, #527/B, 3rd Floor, 1st Main Road,<br>Dr. Rajkumar Road, Rajajinagar, Bengaluru, 560010, India<br><a rel="noopener" href="https://maps.app.goo.gl/sLrfX2Xhu28pQmFB7" target="_blank">View Map</a></p>
+                </div>
+            </div>
+            <hr class="mb-5 mt-0">
+        </div> <!-- / .container -->
+
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div class="modal fade show" data-bs-backdrop="static" id="consentModal" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+        <div class="modal-dialog modal-lg modal-dialog-centered" style="align-items: flex-end;">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Our Website uses Cookies</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <p>This Cookies Policy explains what Cookies are and how We use them. You should read this policy so You can understand what type of cookies We use, or the information We collect using Cookies and how that information is used.</p>
+                    </div>
+                    <div id="cookie-content" hidden="">
+                        <p>Cookies do not typically contain any information that personally identifies a user, but personal information that we store about You may be linked to the information stored in and obtained from Cookies. For further information on how We use, store and keep your personal data secure, see our Privacy Policy.&nbsp;</p>
+<p>We do not store sensitive personal information, such as mailing addresses, account passwords, etc. in the Cookies We use.&nbsp;</p>
+<p aria-level="1"><strong>Interpretation and Definitions</strong>&nbsp;</p>
+<p aria-level="2"><strong>Interpretation</strong>&nbsp;</p>
+<p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&nbsp;</p>
+<p aria-level="2"><strong>Definitions</strong>&nbsp;</p>
+<p>For the purposes of this Cookies Policy:&nbsp;</p>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1"><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Cookies Policy) refers to Unient, Suite 15, 103 George Street, Parramatta, NSW, 2150, Australia.&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1"><strong>Cookies</strong> means small files that are placed on Your computer, mobile device or any other device by a website, containing details of your browsing history on that website among its many uses.&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1"><strong>Website</strong> refers to Unient, accessible from <a rel="noopener" href="http://unient.biz/" target="_blank">http://unient.biz/</a>&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><strong>You</strong> means the individual accessing or using the Website, or a company, or any legal entity on behalf of which such individual is accessing or using the Website, as applicable.&nbsp;</li>
+</ul>
+<p aria-level="2"><strong><span class="NormalTextRun SCXW69677190 BCX8" data-ccp-parastyle="heading 1">The use of Cookies</span></strong></p>
+<p aria-level="2"><strong>Type of Cookies We Use</strong>&nbsp;</p>
+<p>Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close your web browser.&nbsp;</p>
+<p>We use both session and persistent Cookies for the purposes set out below:&nbsp;</p>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1"><strong>Necessary / Essential Cookies</strong>&nbsp;</li>
+</ul>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1">Type: Session Cookies&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1">Administered by: Us&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1">Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1"><strong>Functionality Cookies</strong>&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="5" data-aria-level="1">Type: Persistent Cookies&nbsp;</li>
+</ul>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1">Administered by: Us&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1">Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.&nbsp;</li>
+</ul>
+<p aria-level="2"><strong>Your Choices Regarding Cookies</strong>&nbsp;</p>
+<p>If You prefer to avoid the use of Cookies on the Website, first You must disable the use of Cookies in your browser and then delete the Cookies saved in your browser associated with this website. You may use this option for preventing the use of Cookies at any time.&nbsp;</p>
+<p>If You do not accept Our Cookies, You may experience some inconvenience in your use of the Website and some features may not function properly.&nbsp;</p>
+<p>If You'd like to delete Cookies or instruct your web browser to delete or refuse Cookies, please visit the help pages of your web browser.&nbsp;</p>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1">For the Chrome web browser, please visit this page from Google: <a rel="noopener" href="https://support.google.com/accounts/answer/32050" target="_blank">https://support.google.com/accounts/answer/32050</a>&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="2" data-aria-level="1">For the Internet Explorer web browser, please visit this page from Microsoft: <a rel="noopener" href="http://support.microsoft.com/kb/278835" target="_blank">http://support.microsoft.com/kb/278835</a>&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="3" data-aria-level="1">For the Firefox web browser, please visit this page from Mozilla: <a rel="noopener" href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored" target="_blank">https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</a>&nbsp;</li>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="4" data-aria-level="1">For the Safari web browser, please visit this page from Apple: <a rel="noopener" href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank">https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac</a>&nbsp;</li>
+</ul>
+<p>For any other web browser, please visit your web browser's official web pages.&nbsp;</p>
+<p aria-level="2"><strong>Contact Us</strong>&nbsp;</p>
+<p>If you have any questions about this Cookies Policy, You can contact us:&nbsp;</p>
+<ul>
+<li data-leveltext="" data-font="Symbol" data-listid="1" data-list-defn-props="{&quot;335552541&quot;:1,&quot;335559684&quot;:-2,&quot;335559685&quot;:720,&quot;335559991&quot;:360,&quot;469769226&quot;:&quot;Symbol&quot;,&quot;469769242&quot;:[8226],&quot;469777803&quot;:&quot;left&quot;,&quot;469777804&quot;:&quot;&quot;,&quot;469777815&quot;:&quot;hybridMultilevel&quot;}" aria-setsize="-1" data-aria-posinset="1" data-aria-level="1">By email: <a rel="noopener" href="mailto:info@unient.biz" target="_blank">info@unient.biz</a>&nbsp;</li>
+</ul>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-sm btn-secondary" id="cookie-learn-more" type="button">Learn More</button>
+                    <button class="btn btn-sm btn-secondary" type="button" id="cookie-accept" data-bs-dismiss="modal">Accept All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- begin Back to Top button -->
+    <a href="#" class="toTop">
+        <i class="bx bxs-up-arrow"></i>
+    </a>
+    <!-- scripts -->
+    <script src="/assets/js/theme.bundle.js"></script>
+    <!--Mastert Slider start (Include jquery before master slider js)-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/assets/masterslider/jquery.easing.min.js"></script>
+    <script src="/assets/masterslider/masterslider.min.js"></script>
+    <script>
+        var slider = new MasterSlider();
+        slider.setup('masterslider', {
+            width: 1140,
+            height: 660,
+            minHeight: 400,
+            space: 0,
+            start: 1,
+            grabCursor: false,
+            layout: "fullwidth",
+            wheel: false,
+            autoplay: true,
+            instantStartLayers: true,
+            loop: true,
+            view: "basic",
+            instantStartLayers: true,
+        });
+        slider.control('arrows');
+    </script>
+
+    <!-- cookie js -->
+    <script src="/scripts/cookie.js"></script>
+
+    <!--Swiper slider-->
+    <script src="/scripts/swiperBundle.js"></script>
+
+    <!-- Mobile version layout and arc adjustments -->
+    <script src="/scripts/mobile.js"></script>
+
+    <!-- Contact Us Request -->
+    <script src="/scripts/contact-us.js"></script>
+
+    <!-- Newsletter Subscription -->
+    <script src="/scripts/newsletter-subscription.js"></script>
+
+    <script>
+        //swiper-3
+        var swiperProjects = new Swiper(".swiper-projects", {
+            autoHeight: true,
+            spaceBetween: 16,
+            breakpoints: {
+                640: { slidesPerView: 1, spaceBetween: 16 },
+                768: { slidesPerView: 2, spaceBetween: 16 },
+                1024: { slidesPerView: 2, spaceBetween: 16 }
+            },
+            pagination: {
+                el: ".swiperProjects-pagination", clickable: true
+            },
+            navigation: {
+                nextEl: ".swiperProjects-button-next", prevEl: ".swiperProjects-button-prev"
+            }
+        });
+        //swiper-auto
+        var swiperAuto = new Swiper(".swiper-testimonials", {
+            slidesPerView: "auto", loop: true,
+            centeredSlides: true,
+            spaceBetween: 16,
+            effect: "fade",
+            grabCursor: true,
+            pagination: {
+                el: ".swiperAuto-pagination", clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiperAuto-button-next", prevEl: ".swiperAuto-button-prev",
+            }
+        });
+
+
+
+        //Timeline progressbar
+        var sliderThumbs = new Swiper('.progress-swiper-thumbs', {
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            history: false,
+            breakpoints: {
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+            },
+            on: {
+                'afterInit': function (swiper) {
+                    swiper.el.querySelectorAll('.swiper-pagination-progress-inner')
+                        .forEach($progress => $progress.style.transitionDuration =
+                            `${swiper.params.autoplay.delay}ms`)
+                }
+            }
+        });
+
+        var sliderMain = new Swiper('.swiper-progress-main', {
+            loop: true,
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+            thumbs: {
+                swiper: sliderThumbs
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        })
+    </script>
+        
+
+ <div class="modal-backdrop fade show"></div><div><div class="grecaptcha-badge" data-style="bottomleft" style="width: 256px; height: 60px; display: block; transition: left 0.3s ease 0s; position: fixed; bottom: 14px; left: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcLEckgAAAAAOq7O9zaAkpd-HeMBD9fi4HMo1YD&amp;co=aHR0cHM6Ly9zdGFnZS11bmllbnR3d3cuZXV3ZXN0MDEudW1icmFjby5pbzo0NDM.&amp;hl=en&amp;v=NZrMWHVy58-S9gVvad9HVGxk&amp;size=invisible&amp;badge=bottomleft&amp;cb=zcr7dapnp7ff" width="256" height="60" role="presentation" name="a-r7qiagcf984e" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body></html>
