@@ -107,7 +107,7 @@ test('Book Now', async ({ page }) => {
   await page.waitForTimeout(3000);
   await page.locator('button[id="BookNowButton"]').click();
 
-  //Verify if Thank  you for contacting us will display after clicking the <Book Now> button
+  //Verify if Thank  you for contacting us will display after clicking the <Book Now> button11
   await page.goto('https://stage-unientwww.euwest01.umbraco.io/bookingconfirmation/');
   await expect(page.locator("h1[class='display-2 mb-4 display-4']")).toHaveText("Thank you for contacting us!");
 });
