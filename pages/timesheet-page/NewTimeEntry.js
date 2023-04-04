@@ -1,4 +1,4 @@
-import { Page } from "@playwright/test";
+import { Page, expect } from "@playwright/test";
 
 export class NewTimeEntry {
     constructor(page) {
@@ -32,6 +32,7 @@ export class NewTimeEntry {
     }
 
     async addNote() {
+        // await this.page.pause();
         await this.page.locator("#mat-input-4").fill('This is a test for the note field');
     }
 
@@ -40,16 +41,14 @@ export class NewTimeEntry {
     }
     
     async validateEndOverStartTimeErrorMessage() {
-        expect.soft.this.page.locator("//div[@class='flex-1 mr-1 text-red-600']").isVisible();
+        expect.soft(this.page.locator("//div[@class='flex-1 mr-1 text-red-600']").isVisible());
     }
     
     async validateEndOverStartTimeErrorMessageColor() {
-        // await expect.soft.this.page.locator("//div[@class='flex-1 mr-1 text-red-600']").isVisible();
         const message_text = this.page.locator("//div[@class='flex-1 mr-1 text-red-600']");
         const text_color = await message_text.evaluate((ele) => {
             return window.getComputedStyle(ele).getPropertyValue("color")
         });
-        // console.log(text_color);
-        expect.sorf(text_color).toBe("rgb(220, 38, 38)");
+        expect.soft(text_color).toBe("rgb(220, 38, 38)");
     }
 }
