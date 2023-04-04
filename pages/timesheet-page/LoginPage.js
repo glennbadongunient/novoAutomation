@@ -16,19 +16,17 @@ export class LoginPage {
         
         const nextButton = await this.page.locator("//input[contains(@type, 'submit') and @id='idSIButton9']");
         await nextButton.click();
-        await this.page.waitForLoadState('networkidle');
+        // await this.page.waitForLoadState('networkidle');
         
         const passwordField = await this.page.locator("#i0118");
         await passwordField.fill(password);
-        // await this.page.pause();
 
         const signInButton = await this.page.locator("//input[@id='idSIButton9' and @type='submit']");
         await signInButton.click();
-        await this.page.waitForLoadState('networkidle');
+        // await this.page.waitForLoadState('networkidle');
 
         const noButton = await this.page.locator('#idBtn_Back');
         await noButton.click();
-        await this.page.waitForLoadState('networkidle');
     }
 
     async pause() {
