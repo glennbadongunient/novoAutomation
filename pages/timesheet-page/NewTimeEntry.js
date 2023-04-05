@@ -11,8 +11,6 @@ export class NewTimeEntry {
         const year_now = date.getFullYear();
         this.date_now = month_now+"/"+day_now+"/"+year_now;
         this.date_now_validation = year_now+"-"+month_now+"-"+day_now;
-        // console.log(date_now);
-        // console.log(date_now_validation);
         // console.log("This is the date_now: %s",date_now);
         // console.log("This is the date_now_validation: %s",date_now_validation);
     }
