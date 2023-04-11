@@ -48,7 +48,7 @@ test('add time entry', async ({ page }) => {
     await loginPage.goto();
     await loginPage.login("auto-test@unient.biz", "c+7lwR-P*FiGaQu!R1pa");
 
-    await page.pause();
+    // await page.pause();
     // DELETE EXISTING TIME ENTRIES
     await timesheetHomepage.deleteAllExistingTimeEntry();
 

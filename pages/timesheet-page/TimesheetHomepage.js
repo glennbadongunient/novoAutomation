@@ -11,6 +11,13 @@ export class TimesheetHomepage {
     }
     
     async deleteAllExistingTimeEntry() {
+        // test.use({
+        //     // screenshot: 'only-on-failure',
+        //     launchOptions:{slowMo: 2000},
+        //     // viewport: {width:1920,height:1080},
+        //     headless: false
+        // });
+
         const table = await this.page.$("//div[@class='flex flex-col justify-center bg-white mt-2 sm:mt-2 drop-shadow-md']");
         const condition = await this.page.$("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']");
 
