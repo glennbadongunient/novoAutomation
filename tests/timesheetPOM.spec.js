@@ -48,8 +48,9 @@ test('add time entry', async ({ page }) => {
     await loginPage.goto();
     await loginPage.login("auto-test@unient.biz", "c+7lwR-P*FiGaQu!R1pa");
 
+    await page.pause();
     // DELETE EXISTING TIME ENTRIES
-    // await timesheetHomepage.deleteAllExistingTimeEntry();
+    await timesheetHomepage.deleteAllExistingTimeEntry();
 
     // FILL OUT FORM
     await timesheetHomepage.clickNewTimeEntry();
@@ -60,24 +61,24 @@ test('add time entry', async ({ page }) => {
     await newTimeEntry.clickAddTimeEntryButton();
 
     // VALIDATE TIME ENTRY CREATION IS SUCCESSFUL
-    // await page.pause();
+    await page.pause();
 
     // CLOSE PAGE
     await loginPage.closePage();
 });
 
-// test('clear time entries', async ({ page }) => {
-//     const loginPage = new LoginPage(page);
-//     const timesheetHomepage = new TimesheetHomepage(page);
-//     // const newTimeEntry = new NewTimeEntry(page);
+test('clear time entries', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    const timesheetHomepage = new TimesheetHomepage(page);
+    // const newTimeEntry = new NewTimeEntry(page);
 
-//     // LOGIN
-//     await loginPage.goto();
-//     await loginPage.login("auto-test@unient.biz", "c+7lwR-P*FiGaQu!R1pa");
+    // LOGIN
+    await loginPage.goto();
+    await loginPage.login("auto-test@unient.biz", "c+7lwR-P*FiGaQu!R1pa");
 
-//     // DELETE EXISTING TIME ENTRIES
-//     await timesheetHomepage.deleteAllExistingTimeEntry();
+    // DELETE EXISTING TIME ENTRIES
+    await timesheetHomepage.deleteAllExistingTimeEntry();
 
-//     // CLOSE PAGE
-//     await loginPage.closePage();
-// });
+    // CLOSE PAGE
+    await loginPage.closePage();
+});

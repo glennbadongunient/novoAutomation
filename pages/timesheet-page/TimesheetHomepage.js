@@ -11,11 +11,11 @@ export class TimesheetHomepage {
     }
     
     async deleteAllExistingTimeEntry() {
-        const table = Boolean(await this.page.locator("//div[@class='flex flex-col justify-center bg-white mt-2 sm:mt-2 drop-shadow-md']"));
-        const condition = Boolean(await this.page.locator("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']"));
+        const table = await this.page.$("//div[@class='flex flex-col justify-center bg-white mt-2 sm:mt-2 drop-shadow-md']");
+        const condition = await this.page.$("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']");
 
-        await this.page.waitForLoadState("load");
-        if( condition === true ){
+        // await this.page.waitForLoadState("networkidle");
+        if( await this.page.$("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']") === true ){
             do {
                 const xBot = await this.page.locator("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']");
                 await xBot.click();
@@ -26,7 +26,7 @@ export class TimesheetHomepage {
                 await confBot.click();
                 await confBot.isHidden();
 
-            } while ( condition === true );
+            } while ( await this.page.$("//div[@class='hover:bg-slate-200 flex ng-star-inserted'][1]//mat-icon[contains(@class, 'mat-icon notranslate cursor-pointer material-icons mat-icon-no-color') and text()='highlight_off']") === true );
         } else {
             console.log('did not pasok mamser!')
         }
