@@ -19,15 +19,11 @@ export class LoginPage {
 
         const loginButton = this.page.locator("//button[contains(@class, 'btn btn-primary') and text()='Log in']");
         await loginButton.click();
-        // await this.page.waitForLoadState('networkidle');
         
         const xButton = this.page.locator("//button[contains(@class, 'btn-close') and text()='x']");
         await xButton.click();
-        // await this.page.waitForLoadState('networkidle');
 
         await this.page.locator("//div[@class='container position-relative z-index-1']");
-
-        // await this.page.locator("//div[contains(@class,'md:pl-2 text-center text-xl font-semibold') and text()=' Timesheet ']");
     }
 
     async closePage(){
