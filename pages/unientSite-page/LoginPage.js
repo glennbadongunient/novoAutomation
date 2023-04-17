@@ -1,7 +1,10 @@
+//import { Page, expect, waitForLoadState } from "@playwright/test";
+
 export class LoginPage {
     constructor(page) {
         this.page = page;
     }
+
 
     async goto() {
         await this.page.goto("https://stage-unientwww.euwest01.umbraco.io/");
@@ -11,23 +14,26 @@ export class LoginPage {
     async login(username, password) {
         //Enter Username Field
         const usernameField = await this.page.getByLabel('User name');
-        await usernameField.fill('unienttest');
+        await usernameField.fill(username);
 
         //Enter Password field
-        const passwordfield = await this.page.getByLabel('Password');
-        await password.fill('Unient1234');
+        const passwordField = await this.page.getByLabel('Password');
+        await passwordField.fill(password);
 
         //Click Login button
         const loginButton = await this.page.getByRole('button');
         await loginButton.click();
 
+
         //Click Accept All
-        const acceptAll = await this.page.getByRole('button');
+        const acceptAll = await this.page.locator("button[id='cookie-accept']");
         await acceptAll.click();
+
         
+        //Automatically close the page
+         await this.page.close();
+
+
     }
-    async close() {
-        await this.page.close();
-    
 }
-}
+
