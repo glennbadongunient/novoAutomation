@@ -1,5 +1,3 @@
-//import { Page, expect, waitForLoadState } from "@playwright/test";
-
 export class LoginPage {
     constructor(page) {
         this.page = page;
@@ -31,7 +29,7 @@ export class LoginPage {
 
         
         //Automatically close the page
-         await this.page.close();
+        // await this.page.close();
 
 
     }
