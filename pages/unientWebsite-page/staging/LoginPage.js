@@ -5,12 +5,15 @@ export class LoginPage {
         this.page = page;
     }
 
-    async goto(){
-        await this.page.goto("https://stage-unientwww.euwest01.umbraco.io/");
-        await this.page.locator("#loginModel_Username");
-    }
+    // async goto(){
+    //     await this.page.goto("https://stage-unientwww.euwest01.umbraco.io/");
+    //     await this.page.locator("#loginModel_Username");
+    // }
 
     async login(username, password) {
+        await this.page.goto("https://stage-unientwww.euwest01.umbraco.io/");
+        await this.page.locator("#loginModel_Username");
+
         const usernameField = this.page.locator("#loginModel_Username");
         await usernameField.fill(username);
         
