@@ -1,12 +1,9 @@
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/unientWebsite-page/staging/LoginPage";
-import { Common } from "../pages/unientWebsite-page/staging/Common";
+import { LoginPage } from "../../../pages/unientWebsite-page/dev/LoginPage";
+import { Common } from "../../../pages/unientWebsite-page/dev/Common";
 
 test.use({
-    // screenshot: 'only-on-failure',
-    // launchOptions:{slowMo: 2000},
-    // viewport: {width:1920,height:1080},
-    headless: false
+    headless: true
 });
 
 // test('login unient website', async({ page }) => {
@@ -22,15 +19,15 @@ test('1848 Validate all buttons are existing', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const common = new Common(page);
 
-    await loginPage.login("unienttest", "Unient1234");
+    await loginPage.login("dev");
 
-    const unientLogo = "//a[@class='navbar-brand']/img[@src='/assets/img/logo/Unient-Logo-White.svg']";
-    const teamsButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/teams/']";
-    const infotechButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/infotech/']";
-    const creativesButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/creatives/']";
-    const bpoButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/bpo/']";
-    const aboutusButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/about-us/']";
-    const blogButton = "//ul[@class='navbar-nav']/li[@class='nav-item']/a[@href='/blog/']";
+    const unientLogo = "#home";
+    const teamsButton = "#buildYourTeam";
+    const infotechButton = "#ourServices";
+    const creativesButton = "#whyUnient";
+    const bpoButton = "#insights";
+    const aboutusButton = "#careers";
+    const blogButton = "#contactUs";
     
     expect.soft(Boolean(page.locator(unientLogo)) === true);
     expect.soft(Boolean(page.locator(teamsButton)) === true);
@@ -47,17 +44,17 @@ test('1850 Validate menu bar\'s position', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const common = new Common(page);
 
-    await loginPage.login("unienttest", "Unient1234");
+    await loginPage.login("dev");
 
     // const xButton = page.locator("//button[contains(@class, 'btn-close') and text()='x']");
     // await xButton.click();
     // await page.pause();
 
     // Get the element handle
-    const elementHandle = await page.$("//nav[@class='navbar navbar-expand-lg fixed-top navbar-light navbar-link-white']");
+    const elementHandle = await page.$("//nav[@id='navbar_top2']");
 
-    // Get the bounding box of the element
-    const boundingBox = await elementHandle.boundingBox();
+    // // Get the bounding box of the element
+    // const boundingBox = await elementHandle.boundingBox();
 
     // Get the computed style of the element
     const computedStyle = await page.evaluate((element) => {
@@ -65,14 +62,64 @@ test('1850 Validate menu bar\'s position', async ({ page }) => {
     }, elementHandle);
 
     // Validate the position using the computed style and bounding box
-    expect.soft(computedStyle.position === 'fixed');
-    console.log(computedStyle.position);
-    expect.soft(computedStyle.right === '0px');
-    console.log(computedStyle.right);
-    expect.soft(computedStyle.left === '0px');
-    console.log(computedStyle.left);
-    expect.soft(computedStyle.zIndex === '1030px');
-    console.log(computedStyle.zIndex);
+    expect.soft(computedStyle.position).toBe('fixed');
+    console.log("position is %s", computedStyle.position);
+    expect.soft(computedStyle.top).toBe('70px');
+    console.log("top is %s", computedStyle.top);
+    expect.soft(computedStyle.right).toBe('0px');
+    console.log("right is %s", computedStyle.right);
+    expect.soft(computedStyle.left).toBe('0px');
+    console.log("left is %s", computedStyle.left);
+    expect.soft(computedStyle.zIndex).toBe('99999');
+    console.log("zIndex is %s", computedStyle.zIndex);
+
+    await loginPage.closePage();
+});
+
+test('1851 Validate texts in menu bar is using the correct font style', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.login("dev");
+
+    const listOfMenuBarButtonsIDs = ["home", "buildYourTeam", "ourServices", "whyUnient", "insights", "careers", "contactUs"];
+    for (let i in listOfMenuBarButtonsIDs) {
+
+        const buttonName = listOfMenuBarButtonsIDs[i];
+        const elementHandle = await page.$("//a[@id='"+listOfMenuBarButtonsIDs[i]+"']");
+
+        // Get the bounding box of the element
+        const forTextColor = await elementHandle.getProperty('color');
+        const colorValue = await forTextColor.jsonValue();
+        // const hexColor = colorValue.toString(16).padStart(6, '0');
+
+        // Get the computed style of the element
+        const computedStyle = await page.evaluate((element) => {
+        return window.getComputedStyle(element);
+        }, elementHandle);
+
+        console.log("%s font-style is %s", buttonName, computedStyle.fontStyle);
+        expect.soft(computedStyle.fontStyle).toBe("Open Sans");
+        console.log("%s text-color is %s", buttonName, colorValue);
+        expect.soft(colorValue).toBe("#FFFFFF");
+    }
+    await loginPage.closePage();
+});
+
+test('1852 Validate texts in menu bar is using the correct font size', async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.login("dev");
+
+    const listOfMenuBarButtonsIDs = ["home", "buildYourTeam", "ourServices", "whyUnient", "insights", "careers", "contactUs"];
+    for (let i in listOfMenuBarButtonsIDs) {
+        const urlToOpen = await page.$("//a[@id='"+listOfMenuBarButtonsIDs[i]+"']");
+        
+        // Get the computed style of the element
+        const computedStyle = await page.evaluate((element) => {
+        return window.getComputedStyle(element);
+        }, urlToOpen);
+
+        console.log("%s font-size is %s", i, computedStyle.fontSize);
+        expect.soft(computedStyle.fontSize).toBe("20px");
+    }
 
     await loginPage.closePage();
 });
@@ -90,8 +137,8 @@ test('open all pages', async({ page }) => {
     const aboutUsh1 = "At Unient, We Create Value and Deliver Results ";
     const blogh1 = "Unient: Unveiling Entrinsic Technology\’s New Identity";
 
-    await loginPage.goto();
-    await loginPage.login("unienttest", "Unient1234");
+    // await loginPage.goto();
+    await loginPage.login("dev");
 
     const xButton = page.locator("//button[contains(@class, 'btn-close') and text()='x']");
     await common.clickElement("//a[@href='/teams/' and @class='nav-link']");
